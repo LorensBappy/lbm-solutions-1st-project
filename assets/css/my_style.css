@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+::selection{
+    background-color: transparent;
+}
+p{
+    font-size: 1rem;
+    color: rgb(58, 58, 58);
+    line-height: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgb(50, 50, 50);
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/*===== Style For Header Section =====*/
+.header-section{
+  background-image: url("../images/header-bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.section-content-container{
+   padding: 100px 0px;
+}
+
+.header-content > h1{
+    font-size: 3.78rem;
+    line-height: 100px;
+    padding-bottom: 50px;
+}
+.header-content > h1 > span.stroke-txt{
+    font-size: 5.04rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(0, 158, 250);
+    letter-spacing: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+.section-title{
+    font-size: 1.89rem;
+    font-weight: 700;
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+}
+.section-brief{
+    padding-bottom: 40px;
+}
+
+.span-bold{
+    font-weight: 900;
+}
+.span-txt-color{
+    color: rgb(0, 158, 250);
+}
+a.gdt-btn{
+    background: linear-gradient(rgb(0, 87, 138), rgb(0, 158, 250));
+    color: white;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+    transition: .4s all;
+}
+a.gdt-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 20px -15px;
+}
+.section-img > img{
+    width: 100%;
+}
+/*===== Style For About Section =====*/
+.about-section{
+    background-image: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.about-content{
+    margin-left: 50px;
+}
+
+/*===== Style For Work Section =====*/
+.work-content{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.work-section{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.portfolio-box > a > img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.portfolio-box > a > img:hover{
+    box-shadow: none;
+}
+/*===== Style For Client Say Section =====*/
+.client-say{
+    margin: 0 auto;
+}
+.about-client{
+    text-align: center;
+}
+.about-client > img{
+    width: 40%;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.client-brief > h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+.client-brief > h6{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(128, 128, 128);
+}
+.client-brief > p{
+    padding-top: 25px;
+}
+.client-say-section{
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.msg-me{
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(80deg, rgb(0, 242, 250), rgb(0, 144, 228));
+    padding: 50px 0;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.msg-me > h4, h6{
+    color: rgb(255, 255, 255);
+}
+.msg-me > h6{
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.msg-me > h4{
+    font-weight: 600;
+}
+/*===== Style For Footer Section =====*/
+.footer-txt > p{
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+    color: rgb(141, 141, 141);
+}
+.footer-txt > p > a{
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+}
+
+
+
